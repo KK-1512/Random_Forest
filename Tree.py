@@ -5,6 +5,9 @@ import os
 
 st.title("Decision Tree Heat Treatment Hardness Predictor")
 
+# 🔥 Add image at top (upload the image to your repo)
+st.image("LNT.jpg", use_column_width=True)
+
 # Load model
 def load_model():
     base = os.path.dirname(os.path.abspath(__file__))
